@@ -34,9 +34,7 @@ public class main {
         System.out.println(year + " год " + (isLeap ? "является" : " не является") + " високосным");
         System.out.println("Задача 4");
         int deliveryDistance = 95; // Дистанция до клиента в км
-
         int deliveryTime;
-
         if (deliveryDistance <= 0) {
             System.out.println("Некорректное расстояние");
             return;
@@ -50,18 +48,14 @@ public class main {
             System.out.println("Доставка невозможна: расстояние свыше 100 км");
             return;
         }
-
         System.out.println("Потребуется дней: " + deliveryTime);
         System.out.println("Задача 5");
         int monthNumber = 12; // Номер месяца (от 1 до 12)
-
         if (monthNumber < 1 || monthNumber > 12) {
             System.out.println("Некорректный номер месяца. Введите значение от 1 до 12.");
             return;
         }
-
         String season;
-
         switch (monthNumber) {
             case 12:
             case 1:
